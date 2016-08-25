@@ -2,7 +2,7 @@
 layout: post
 title: Welcome to my new website
 date: 2016-08-25T19:12:34.000Z
-categories: Blog Post
+categories: Blog-Post
 published: true
 ---
 ## Hi there.
