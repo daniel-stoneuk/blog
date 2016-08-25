@@ -9,6 +9,8 @@ Hi there. My name is Dan Stone, I'm 15 years old and I like programming (among o
 I currently have an Android app on the Play Store - [Monitor for EnergyHive and Engage][monitor]. Quoting the description:
 > Monitor is a native and lightweight unofficial client for the EnergyHive and Efergy Engage Internet of Things platforms, beautifully designed with material design.
 
+![monitorbanner](/assets/2016-08-25-monitorbanner.jpeg);
+
 Please do check it out if you have an [EnergyHive][energyhive] or [Efergy][efergy] hub.
 
 Anyway, that's all from me for now. I'll catch you later as I have many ideas to write about. Keep checking!
