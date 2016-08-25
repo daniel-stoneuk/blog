@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to my new website
-date: {}
+date: 2016-08-25T19:12:34.000Z
 categories: null
 published: true
 ---
