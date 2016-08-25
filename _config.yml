@@ -5,7 +5,7 @@ logo: /static/img/avatar.png
 github: https://github.com/daniel-stoneuk
 about: "15 year old Android Developer."
 
-baseurl: "http://daniel-stoneuk.github.io"
+baseurl: ""
 url: "http://daniel-stoneuk.github.io"
 
 disqus_shortname: daniel-stoneuk
