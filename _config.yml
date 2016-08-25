@@ -15,7 +15,7 @@ share:
 
 
 enableTags: true
-tagarray: ["android, message"]
+tagarray: ["Android", "Blog Post"]
 
 paginate: 20
 per_page: 20
