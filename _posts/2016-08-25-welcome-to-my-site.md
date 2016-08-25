@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to my new website
-date: 2016-08-25T12:27:34.000Z
+date: {}
 categories: null
 published: true
 ---
@@ -18,7 +18,7 @@ Please do check it out if you have an [EnergyHive][energyhive] or [Efergy][eferg
 
 Anyway, that's all from me for now. I'll catch you later as I have many ideas to write about. Keep checking for updates!
 
-See ya,
+See ya,  
 Dan
 
 [monitor]:      https://play.google.com/store/apps/details?id=com.danielstone.energyhive
