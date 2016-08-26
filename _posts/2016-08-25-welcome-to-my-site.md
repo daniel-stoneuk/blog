@@ -5,7 +5,7 @@ date: 'Thu Aug 25 2016 21:12:34 GMT+0200 (CEST)'
 categories:
   - android
   - blog-post
-published: true
+published: false
 ---
 ## Hi there.
 My name is Dan Stone, I'm 15 years old and I like programming (among other things). That's all you need to know about me for now. I am going to use this lovely new site to share my ideas and projects for a wide range of things - from my GCSE Computer Science course, to the hurdles I encounter when developing Android Apps.
