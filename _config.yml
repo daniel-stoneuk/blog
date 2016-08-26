@@ -22,3 +22,39 @@ per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
 gems: [jekyll-paginate, jekyll-gist]
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://daniel-stone.uk'
+  media: 'assets'
+  metadata:
+  _posts:
+    - name: "layout"
+      field:
+        element: "hidden"
+        value: "post"
+    - name: "title"
+      field:
+        element: "text"
+        label: "Title"
+        value: ""
+    - name: "date"
+ 	  field:
+   		 element: "text"
+  		 label: "Date"
+  		 value: "CURRENT_DATETIME"
+     - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add Categories"
+          placeholder: "Choose Categories"
+          options:
+            - name: "Android"
+              value: "android"
+            - name: "Blog Post"
+              value: "blog-post"
+    - name: "published"
+      field:
+        element: "checkbox"
+        label: "Published"
+        value: false
