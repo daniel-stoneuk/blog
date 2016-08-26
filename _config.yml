@@ -25,7 +25,6 @@ gems: [jekyll-paginate, jekyll-gist]
 
 
 prose:
-  rooturl: "_posts"
   siteurl: "http://daniel-stone.uk"
   media: "assets"
   ignore:
