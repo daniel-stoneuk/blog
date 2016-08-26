@@ -23,10 +23,16 @@ paginate_path: "/page:num/"
 markdown: kramdown
 gems: [jekyll-paginate, jekyll-gist]
 
+
 prose:
   rooturl: "_posts"
   siteurl: "http://daniel-stone.uk"
   media: "assets"
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
   metadata:
     _posts:
       - name: "layout"
