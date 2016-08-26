@@ -40,9 +40,9 @@ prose:
         value: ""
     - name: "date"
       field:
-   		 element: "text"
-  		 label: "Date"
-  		 value: "CURRENT_DATETIME"
+        element: "text"
+        label: "Date"
+        value: "CURRENT_DATETIME"
      - name: "categories"
         field:
           element: "multiselect"
