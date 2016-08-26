@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Welcome to my new website
-date: 2016-08-25T19:12:34.000Z
-categories: blog-post
+date: 'Thu Aug 25 2016 21:12:34 GMT+0200 (CEST)'
+categories:
+  - android
+  - blog-post
 published: true
 ---
 ## Hi there.
