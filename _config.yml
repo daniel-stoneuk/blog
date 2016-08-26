@@ -49,3 +49,13 @@ prose:
           label: "Date"
           element: "text"
           value: "CURRENT_DATETIME"
+      - name: "categories"
+        field:
+          label: "Categories"
+          element: "multiselect"
+          placeholder: "Select categories"
+          options:
+            - name: "Android"
+              value: "android"
+            - name: "Blog Post"
+              value: "blog-post"
