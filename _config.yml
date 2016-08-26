@@ -27,39 +27,25 @@ gems: [jekyll-paginate, jekyll-gist]
 prose:
   siteurl: "http://daniel-stone.uk"
   media: "assets"
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
   metadata:
     _posts:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
       - name: "layout"
         field:
-          element: "hidden"
+          label: "Layout"
+          element: "text"
           value: "post"
       - name: "title"
         field:
-          element: "text"
           label: "Title"
-          value: ""
+          element: "text"
+          value: "A awesome Headline!"
       - name: "date"
         field:
-          element: "text"
           label: "Date"
+          element: "text"
           value: "CURRENT_DATETIME"
-       - name: "categories"
-          field:
-            element: "multiselect"
-            label: "Add Categories"
-            placeholder: "Choose Categories"
-            options:
-              - name: "Android"
-                value: "android"
-              - name: "Blog Post"
-                value: "blog-post"
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false
