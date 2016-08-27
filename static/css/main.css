@@ -47,6 +47,12 @@ p.info a {
     height: auto;
 }
 
+.full img{
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+}
+
 .screenshot img{
     display: block;
     margin: "0 auto"
