@@ -12,4 +12,4 @@ So, I was developing a new budget feature for Monitor for EnergyHive and Engage 
 
 I am going to do a complete redesign of the app sometime soon, but for now, this is how it looks:
 
-![bottom-sheet-existing-screen.png]({{site.baseurl}}/assets/bottom-sheet-existing-screen.png){:height="36px" display="block" margin="0 auto"}
+![bottom-sheet-existing-screen.png]({{site.baseurl}}/assets/bottom-sheet-existing-screen.png){: .screenshot height="100px"}
