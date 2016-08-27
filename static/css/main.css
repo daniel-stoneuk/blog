@@ -46,6 +46,12 @@ p.info a {
     max-width: 100%;
     height: auto;
 }
+
+.screenshot img{
+    display: block;
+    margin: "0 auto"
+}
+
 .social-icons {
     margin: 20px 0 0;
 }
