@@ -12,4 +12,4 @@ So, I was developing a new budget feature for Monitor for EnergyHive and Engage 
 
 I am going to do a complete redesign of the app sometime soon, but for now, this is how it looks:
 
-![bottom-sheet-existing-screen.png]({{site.baseurl}}/assets/bottom-sheet-existing-screen.png =x20)
+![bottom-sheet-existing-screen.png]({{site.baseurl}}/assets/bottom-sheet-existing-screen.png)
