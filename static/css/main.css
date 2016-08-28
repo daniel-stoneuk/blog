@@ -50,7 +50,7 @@ p.info a {
 .screenshot {
     display: block;
     margin: 0 auto;
-    height: 100px;
+    width: 300px;
 }
 
 .screenshot img{
