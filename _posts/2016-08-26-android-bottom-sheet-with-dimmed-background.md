@@ -88,6 +88,75 @@ public class InfoBottomSheetFragment extends Fragment implements LoaderManager.L
 
 I have ommitted most of the code, as it is unnecessary. I tend to use custom `AsyncTaskLoaders` to fetch data from the server. Here, I have inflated the views from the associated layout and created a public method that will allow me to communicate visibility from the `MainActivity` to the `Fragment`.
 
+This may seem all very random but trust me, it will make sense later on.
+
+## Adding the Bottom Sheet Fragment to the Main Activity
+
+```xml
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_activity_coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_activity_fragment_scrim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/shape_window_dim"
+        >
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:name="com.danielstone.energyhive.MainActivityFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_main"
+            android:id="@+id/main_activity_fragment" />
+    </FrameLayout>
+
+	<!-- The NestedScrollView is the BottomSheet -->
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/budget_fragment_height"
+        android:elevation="16dp"
+        android:clipToPadding="true"
+        android:background="@color/colorWhite"
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+        >
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:name="com.danielstone.energyhive.InfoBottomSheetFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/budget_fragment_height"
+            tools:layout="@layout/fragment_main"
+            android:id="@+id/info_bottom_sheet_fragment" />
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+```
+
+As you can see above, I have wrapped the main fragment in a `FrameLayout` with it's `foreground` set to a drawable that is simply a black rectangle.
+
+shape_window_dim.xml:
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    <solid android:color="#000000" />
+</shape>
+```
+
+The Bottom Sheet
 
 
 
