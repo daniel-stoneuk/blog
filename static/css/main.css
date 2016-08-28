@@ -50,6 +50,7 @@ p.info a {
 .screenshot {
     display: block;
     margin: 2em auto;
+    max-width: 100%;
     width: 300px;
 }
 
