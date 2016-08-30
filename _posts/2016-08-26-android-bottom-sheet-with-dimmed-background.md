@@ -148,7 +148,7 @@ This may seem all very random but trust me, it will make sense later on.
 </android.support.design.widget.CoordinatorLayout>
 ```
 
-As you can see above, I have wrapped the main fragment in a `FrameLayout` with it's `foreground` set to a drawable that is simply a black rectangle.
+As you can see above, I wrapped the main fragment which contains the app (you could wrap your views) in a `FrameLayout` with it's `foreground` set to a drawable that is simply a black rectangle.
 
 
 ### shape_window_dim.xml:  
@@ -159,3 +159,74 @@ As you can see above, I have wrapped the main fragment in a `FrameLayout` with i
     <solid android:color="#000000" />
 </shape>
 ```
+
+So that's the layouts done. Awesome. Now we need to build in the functionality. Here is a code snippet from my MainActivity.java. I'll explain it through comments.
+
+```java
+
+// get the Primary Dark colour as the default status bar colour
+
+final int statusBarColor = ContextCompat.getColor(this, R.color.colorPrimaryDark);
+
+// only apply this if on Android Lollipop or above (KitKat and below don't support this
+
+if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+    Window window = this.getWindow();
+
+    // clear FLAG_TRANSLUCENT_STATUS flag:
+    window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+
+    // add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
+    window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+
+    // finally change the color
+    window.setStatusBarColor(statusBarColor);
+}
+
+// Now we need to add BottomSheetBehaviour to the BottomSheet View (in my case the NestedScrollView
+
+mBottomSheetBehavior = BottomSheetBehavior.from(mBottomSheet);
+
+// We have a variable that stores the bottom sheet offset. This will be 1 if up and 0f if down.
+
+bottomSheetSlideOffset = 0f;
+if (savedInstanceState != null)
+    bottomSheetSlideOffset = savedInstanceState.getFloat("bottomSheetSlideOffset", 0f);
+    
+// Use my setScrim method passing in the offset and the default statusBarColor
+
+setScrim(bottomSheetSlideOffset, statusBarColor);
+
+// Let's start listening to interaction with the BottomSheet
+
+mBottomSheetBehavior.setBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
+
+	// This method is called when the state changes to one of the constants in BottomSheetBehaviour
+    @Override
+    public void onStateChanged(@NonNull View bottomSheet, int newState) {
+        setBottomSheetState(newState);
+		
+        // Communicate the state change to the Fragment. I should probably check with instanceof. Adding that to my to-do list.
+
+        InfoBottomSheetFragment infoBottomSheetFragment = (InfoBottomSheetFragment) getSupportFragmentManager().findFragmentById(R.id.info_bottom_sheet_fragment);
+        if (newState == BottomSheetBehavior.STATE_SETTLING || newState == BottomSheetBehavior.STATE_EXPANDED) {
+        	// Using the public method we made earlier.
+            infoBottomSheetFragment.setVisibility(true);
+        } else if (newState == BottomSheetBehavior.STATE_COLLAPSED) {
+            infoBottomSheetFragment.setVisibility(false);
+        }
+    }
+
+	// This method is called when the Bottom Sheet moves on the screen.
+    @Override
+    public void onSlide(@NonNull View bottomSheet, float slideOffset) {
+    	// setBottomSheetSlideOffset is a custom method that allows me to change the public variable.
+        setBottomSheetSlideOffset(slideOffset);
+        
+        // Call setScrim every time the offset is changed.
+        setScrim(slideOffset, statusBarColor);
+    }
+});
+```
+
+This post is still a work in progress so stay tuned for more. I'm not the best at writing and explaining, but I hope to improve over time :D
