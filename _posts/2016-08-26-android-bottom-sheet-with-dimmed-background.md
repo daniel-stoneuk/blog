@@ -40,6 +40,7 @@ I started playing with `FrameLayouts`, and `TouchEvents` to try and get the anim
 
 ## Creating the Fragment
 
+
 ```java
 public class InfoBottomSheetFragment extends Fragment implements LoaderManager.LoaderCallbacks<CostMonthForecast>, View.OnClickListener {
 
@@ -93,6 +94,7 @@ I have ommitted most of the code, as it is unnecessary. I tend to use custom `As
 This may seem all very random but trust me, it will make sense later on.
 
 ## Adding the Bottom Sheet Fragment to the Main Activity
+
 
 ```xml
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
