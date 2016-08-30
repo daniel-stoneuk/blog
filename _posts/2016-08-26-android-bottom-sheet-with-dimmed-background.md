@@ -27,6 +27,7 @@ Essentially, a modal bottom sheet that contains normal interactive elements rath
 
 ![Bottom Sheet Gif]({{site.baseurl}}/assets/bottomsheet.gif){: .screenshot}
 
+
 [androidsupportlibrary232]: http://android-developers.blogspot.it/2016/02/android-support-library-232.html
 
 
