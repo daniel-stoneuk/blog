@@ -149,6 +149,7 @@ This may seem all very random but trust me, it will make sense later on.
 As you can see above, I have wrapped the main fragment in a `FrameLayout` with it's `foreground` set to a drawable that is simply a black rectangle.
 
 shape_window_dim.xml:
+
 ```xml
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android"
