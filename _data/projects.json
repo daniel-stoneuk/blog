@@ -6,4 +6,11 @@
 		"date": "2016",
 		"tags": ["Android"]
 	}
+  {
+		"name": "Project Euler",
+		"image": "projecteuler.png",
+		"url": "https://github.com/daniel-stoneuk/ProjectEuler",
+		"date": "Summer 2016",
+		"tags": ["Java"]
+	}
 ]
