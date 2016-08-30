@@ -150,11 +150,9 @@ As you can see above, I have wrapped the main fragment in a `FrameLayout` with i
 
 shape_window_dim.xml:
 ```xml
-<?xml version="1.0" encoding="utf-8"?>
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle" >
     <solid android:color="#000000" />
 </shape>
 ```
-
