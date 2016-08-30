@@ -15,7 +15,7 @@ share:
 
 
 enableTags: true
-tagarray: ["Android", "Blog-Post"]
+tagarray: ["Android", "Java", "GCSE Computer Science"]
 
 paginate: 20
 per_page: 20
