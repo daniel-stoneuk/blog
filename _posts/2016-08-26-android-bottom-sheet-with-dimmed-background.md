@@ -244,5 +244,7 @@ mBottomSheetBehavior.setBottomSheetCallback(new BottomSheetBehavior.BottomSheetC
 So, let's go through this step by step.
 
 1. I'm grabbing the the Primary Dark colour to use as the status bar background. I am only applying this on Android Lollipop and above. Over 70% of my users are on API 21 and above, so I haven't bothered to check before grabbing the colour.
+2. Call the setScrim() method. _I am calling it a scrim as that's what Google calls them, although it seems to be a North American word._ Anyway. This method takes the FrameLayout, and cahnges the alpha of the foreground drawable. As the slide offset is between 0 and 1, we can multiply this to get an alpha value - 0 to 255. By changing the factor, we can change the darkest it will become - I have chosen 150, which is about 60% transparency.
+3. I also have a Utility method which darkens a colour by a value.
 
 This post is still a work in progress so stay tuned for more. I'm not the best at writing and explaining, but I hope to improve over time :D
