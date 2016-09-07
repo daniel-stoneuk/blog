@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 date: '2016-08-26 21:06 +0200'
 title: Android Bottom Sheet with Dimmed Background
@@ -228,5 +228,21 @@ mBottomSheetBehavior.setBottomSheetCallback(new BottomSheetBehavior.BottomSheetC
     }
 });
 ```
+
+### setScrim()
+```java
+    private void setScrim(float slideOffset, int statusBarColor) {
+        mScrim.getForeground().setAlpha((int) (slideOffset * 150));
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            Window window = MainActivity.this.getWindow();
+            // finally change the color
+            window.setStatusBarColor(Utility.darker(statusBarColor, 1.3f - slideOffset));
+        }
+    }
+```
+
+So, let's go through this step by step.
+
+1. I'm grabbing the the Primary Dark colour to use as the status bar background. I am only applying this on Android Lollipop and above. Over 70% of my users are on API 21 and above, so I haven't bothered to check before grabbing the colour.
 
 This post is still a work in progress so stay tuned for more. I'm not the best at writing and explaining, but I hope to improve over time :D
