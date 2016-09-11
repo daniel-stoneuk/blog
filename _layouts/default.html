@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script type="text/javascript">
+    var host = "daniel-stone.uk";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+</script>
     {% include meta.html %}
       <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
     <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
