@@ -6,8 +6,7 @@ github: https://github.com/daniel-stoneuk
 about: "15 year old Android Developer."
 
 baseurl: ""
-url: "https://daniel-stone.uk"
-enforce_ssl: "daniel-stone.uk"   # without any protocol
+url: "http://daniel-stone.uk"
 
 
 disqus_shortname: daniel-stoneuk
