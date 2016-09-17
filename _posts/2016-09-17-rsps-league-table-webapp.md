@@ -6,7 +6,7 @@ title: RSPS - League Table WebApp
 ---
 ## Throwbacks.
 
-Around Christmas last year, my school form and I decided to host a league based competition around the Android game [Pocket Soccer][pocketsoccer] - to reminisce our year 7 days (3 years before).  I, being the true tech geek I am decided to use my, at the time, newfound PHP knowledge to develop a pretty complex website to keep track of the games. I worked on it during lunch break and in the evening for about a week, until it was finally finished. I am impressed by the amount of work I put into it back then.
+Around Christmas last year, my school form and I decided to host a league based competition around the Android game [Pocket Soccer][pocketsoccer] - to reminisce our year 7 days (3 years earlier).  I, being the true tech geek I am decided to use my, at the time, newfound PHP knowledge to develop a pretty complex website to keep track of the games. I worked on it during lunch break and in the evening for about a week, until it was finally finished. I am impressed by the amount of work I put into it back then.
 
 I worked with the [Materialize][] framework to make it look pretty, but the bulk of the logic was in the backend - in PHP and SQL. I incorporated a proper login system with randomly generated keys which would tie a person to a user account. You can check it out here: [rsps.daniel-stone.uk][rsps].
 
