@@ -14,6 +14,8 @@ Setting up the Dash Button with the app was simple, and cancelling at the final 
 
 Works great... Until your internet dies. I don't know about you but I have to restart my WiFi router almost daily to avoid slowing down, which seems to break the ARP monitoring code. When trying it again today, I realised that I could utilise the pointless notification that appeared on my phone instead of ignorantly swiping it away. It works quicker, and works whenever my phone is on and connected to the internet. Essentially 24/7.
 
+![amazondash.gif]({{site.baseurl}}/assets/amazondash.gif)
+
 #How?
 
 As tasker has a plethora of plugins, I reinstalled it for the first time after purchasing it two years ago. Great - it hasn't changed a bit. From here what I did was:
