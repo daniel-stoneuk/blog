@@ -17,6 +17,10 @@ If you're not logged in (you won't be) all you will see is the main homepage. He
 I then fill in a table row using `echo` and the needed html code.
 
 ```php
+<?php
+
+...
+
 $query = "SELECT `id` FROM `users` WHERE `1stgroup`='".$group."' ".(isset($_GET['order']) ? "ORDER BY `fullname` ASC" : "ORDER BY `won` DESC, `goaldifference` DESC;");
 
 $result = mysqli_query($link, $query);
@@ -42,6 +46,7 @@ echo "
 	$position += 1;
 };
 echo "</tbody></table></div>";
+?>
 };
 ```
 
