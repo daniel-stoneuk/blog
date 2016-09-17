@@ -51,10 +51,10 @@ Maybe someday I will reuse it for a different league based competition. I hope t
 
 Oh, and I optimised it for mobile.
 
-![rspsgif.gif]({{site.baseurl}}/assets/rspsgif.gif){:.screenshot}
+[rspsgif.gif]({{site.baseurl}}/assets/rspsgif.gif){:.screenshot}
 
 Catch you later,
 Dan
-[pocketsoccer]: https://play.google.com/store/apps/details?id=com.rastergrid.game.pocketsoccer&hl=en
-[Materialize]: http://materializecss.com/
-[rsps]: rsps.daniel-stone.uk
+[pocketsoccer]: 	https://play.google.com/store/apps/details?id=com.rastergrid.game.pocketsoccer&hl=en
+[Materialize]: 	http://materializecss.com/
+[rsps]: 	rsps.daniel-stone.uk
