@@ -64,4 +64,4 @@ Dan
 
 [pocketsoccer]: 	https://play.google.com/store/apps/details?id=com.rastergrid.game.pocketsoccer&hl=en
 [Materialize]: 	http://materializecss.com/
-[rsps]: 	rsps.daniel-stone.uk
+[rsps]: 	http://rsps.daniel-stone.uk
