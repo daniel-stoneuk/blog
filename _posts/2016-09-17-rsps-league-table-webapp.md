@@ -53,7 +53,7 @@ Oh, and I optimised it for mobile.
 
 ![rspsgif.gif]({{site.baseurl}}/assets/rspsgif.gif){:.screenshot}
 
-Catch you later,
+Catch you later,  
 Dan
 
 [pocketsoccer]: 	https://play.google.com/store/apps/details?id=com.rastergrid.game.pocketsoccer&hl=en
