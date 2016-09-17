@@ -56,7 +56,8 @@ Maybe someday I will reuse it for a different league based competition. I hope t
 
 Oh, and I optimised it for mobile.
 
-![rspsgif.gif]({{site.baseurl}}/assets/rspsgif.gif){:.screenshot}
+![rsps.webm]({{site.baseurl}}/assets/rsps.webm){:.screenshot}
+
 
 Catch you later,  
 Dan
