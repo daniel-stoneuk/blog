@@ -26,9 +26,15 @@ As tasker has a plethora of plugins, I reinstalled it for the first time after p
 
 Nice and simple. I'll walk you through each step with the screenshots below.
 
-### Step 1
+### Prerequisites
 
-Let's start off by downloading a few apps: [Tasker (£2.99)][tasker], [Notification Listener (free with IAP)][notilisten] and [Auto Hue (79p - my plugin of choice)][autohue].
+I expect you to have the Amazon Shopping app installed and to have setup the Dash Button (skipping the last step), with Dash Button Notifications switched on. 
+
+### Step 2
+
+Let's start off by downloading a few apps: [Tasker (£2.99)][tasker], [Notification Listener (free with IAP)][notilisten] and [Auto Hue (79p - my plugin of choice)][autohue]. 
+
+Open tasker, accept the disclaimer and then press the big `+` button at the bottom. Tap on Event > Plugin > Notification Listener > Notification Listener. Select notification event "Posted" and select the Amazon Shopping app.
 
 [dash]:	https://www.amazon.com/Dash-Buttons/b?ie=UTF8&node=10667898011
 [tso]: http://steventso.com/amazon-dash-lifx/
