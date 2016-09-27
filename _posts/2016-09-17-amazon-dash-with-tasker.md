@@ -16,7 +16,7 @@ Works great... Until your internet dies. I don't know about you but I have to re
 
 ![amazondash.gif]({{site.baseurl}}/assets/amazondash.gif)
 
-##How?
+## How?
 
 As tasker has a plethora of plugins, I reinstalled it for the first time after purchasing it two years ago. Great - it hasn't changed a bit. From here what I did was:
 1. Listen for a notification from Amazon Shopping
