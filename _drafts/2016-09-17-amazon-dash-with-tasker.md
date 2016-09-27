@@ -16,7 +16,7 @@ Works great... Until your internet dies. I don't know about you but I have to re
 
 ![amazondash.gif]({{site.baseurl}}/assets/amazondash.gif)
 
-#How?
+##How?
 
 As tasker has a plethora of plugins, I reinstalled it for the first time after purchasing it two years ago. Great - it hasn't changed a bit. From here what I did was:
 1. Listen for a notification from Amazon Shopping
@@ -26,5 +26,12 @@ As tasker has a plethora of plugins, I reinstalled it for the first time after p
 
 Nice and simple. I'll walk you through each step with the screenshots below.
 
+### Step 1
+
+Let's start off by downloading a few apps: [Tasker (£2.99)][tasker], [Notification Listener (free with IAP)][notilisten] and [Auto Hue (79p - my plugin of choice)][autohue].
+
 [dash]:	https://www.amazon.com/Dash-Buttons/b?ie=UTF8&node=10667898011
 [tso]: http://steventso.com/amazon-dash-lifx/
+[notilisten]: https://play.google.com/store/apps/details?id=com.balda.notificationlistener
+[tasker]: https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm
+[autohue]: https://play.google.com/store/apps/details?id=com.cuberob.autohue
