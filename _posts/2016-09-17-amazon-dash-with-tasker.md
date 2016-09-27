@@ -19,6 +19,7 @@ Works great... Until your internet dies. I don't know about you but I have to re
 ## How?
 
 As tasker has a plethora of plugins, I reinstalled it for the first time after purchasing it two years ago. Great - it hasn't changed a bit. From here what I did was:
+
 1. Listen for a notification from Amazon Shopping
 2. Remove this notification
 3. Run plugin to toggle lights (or do anything with tasker)
@@ -51,6 +52,7 @@ Save the configuration and proceed with step 3.
 ### Step 3 - Act
 
 Awesome. We can now do whatever we like with the tasker task. I have my task setup so that it will:
+
 1. Create a notification to indicate that the Dash Button press was received.
 2. If my lights are on, then turn them off and replace the notification saying the lights were toggled.
 
