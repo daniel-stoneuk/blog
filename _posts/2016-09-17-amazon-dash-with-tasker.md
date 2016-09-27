@@ -42,7 +42,7 @@ Tap the tick and move on. Press back to save the configuration and tap New Task 
 
 ### Step 2 - Cancel
 
-Now we have intercepted the notification, we can clear it. Tapp the `+` button and navigate back to the Notification Listner plugin. Tap on `Cancel notificaions` this time. Enter the configuration screen and choose "By title" in the dropdown. Enter %nltitle in the text field.
+Now we have intercepted the notification, we can clear it. Tapp the `+` button and navigate back to the Notification Listner plugin. Tap on `Cancel notificaions` this time. Enter the configuration screen and choose "By title" in the dropdown. Enter `%nltitle` in the text field.
 
 ![tasker-2.png]({{site.baseurl}}/assets/tasker-2.png){:.screenshot}
 
