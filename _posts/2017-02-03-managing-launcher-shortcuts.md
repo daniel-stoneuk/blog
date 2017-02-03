@@ -26,7 +26,7 @@ shortcutManager.setDynamicShortcuts(newShortcuts);
 
 Nope. For some reason the icons are lost in the process. 
 
-![Image]({{site.baseurl}}/assets/device-2017-02-03-210527.png){.screenshot}
+![Image]({{site.baseurl}}/assets/device-2017-02-03-210527.png){:.screenshot}
 
 I found the best way of managing them for now is like so: 
 
@@ -52,7 +52,3 @@ shortcutManager.addDynamicShortcuts(Arrays.asList(shortcut));
 ```
 
 Let me know if you have a solution...
-
-
-
-
