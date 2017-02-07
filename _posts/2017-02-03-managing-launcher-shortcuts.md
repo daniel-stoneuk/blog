@@ -44,7 +44,7 @@ for (ShortcutInfo s :
     }
 }
 
-if (!alreadyAdded) {
+if (!alreadyAdded && dynamicShortcuts.size() > 3) {
     shortcutManager.removeDynamicShortcuts(Arrays.asList(dynamicShortcuts.get(0).getId()));
 }
 
