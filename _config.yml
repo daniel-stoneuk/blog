@@ -1,12 +1,12 @@
 title: "Dan Stone"
 description: "Dan Stone's personal blog about programming stuff."
 author: Daniel Stone
-logo: http://daniel-stone.uk/static/img/avatar.png
+logo: http://daniel-stone.uk/blog/static/img/avatar.png
 github: https://github.com/daniel-stoneuk
 about: "15 year old Android Developer."
 
 baseurl: ""
-url: "http://daniel-stone.uk"
+url: "http://daniel-stone.uk/blog"
 
 
 disqus_shortname: daniel-stoneuk
@@ -26,7 +26,7 @@ gems: [jekyll-paginate, jekyll-gist]
 
 
 prose:
-  siteurl: "https://daniel-stone.uk"
+  siteurl: "https://daniel-stone.uk/blog"
   media: "assets"
   metadata:
     _posts:
